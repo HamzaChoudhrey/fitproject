@@ -3,7 +3,7 @@ import pandas as pd
 
 
 # Correct model file path
-model_path = "C:/Users/LENOVO/Downloads/linear_regression_model.pkl"
+model_path = "linear_regression_model.pkl"
 loaded_model = joblib.load(model_path)
 
 new_data = pd.DataFrame({
